@@ -1,0 +1,55 @@
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.contacts {
+    display: flex;
+    margin-left: 33px;
+    background-color: var(--contacts-background-color);
+}
+.contacts-place {
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+}
+.contacts-place__item {
+}
+.contacts-place__btn {
+    padding: 6px 22px;
+background: #F5F4FA;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+cursor: pointer;
+letter-spacing: 0.03em;
+border: none;
+color: var(--first-title-color);
+background-color: var(--accent-color);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.adress {
+}
+.work-time {
+}
+.work-weekand {
+}
+.adress-contact {
+}
+.adress-contact__list {
+}
+.adress-contact__item {
+}
+.adress-contact__link {
+}
+.button {
+}
+.contacts-btn {
+}
+.contacts-btn__item {
+}
+.btn--active {
+}
+.btn {
+}
