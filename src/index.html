@@ -1,13 +1,122 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="eng">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Ice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
+    <main>
+  <!-- Contacts -->
+  <section class="section">
+    <div class="container">
+      <h2 hidden>Contacts</h2>
+      <div class="contacts">
+       <ul class="contacts-place">
+      <li class="contacts-place__item">
+        <button type="button" class="contacts-place__btn">CAFE</button>
+      </li>
+    </ul>
+    <div class="adress">
+      <h3>Chicago</h3>
+      <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+    </div>
+    <div class="work-time">
+    <p>Monday - Friday</p>
+    <p>06:00 AM - 10:00 PM</p>
+    </div>
+    <div class="work-weekand">
+      <p>Saturday - Sunday</p>
+      <p>08:00 AM - 16:00 PM</p>
+      </div>
+      <adress class="adress-contact">
+        <ul class="adress-contact__list list" >
+        <li class="adress-contact__item">
+          <a href="tel:+610383766284" class="adress-contact__link link">+61(0) 383 766 284</a>
+        </li>
+        <li class="adress-contact__item">
+          <a href="mailto:noreply@envato.com" class="adress-contact__link link">noreply@envato.com</a>
+        </li>
+        </ul>
+      </adress> 
+    </div>
+      <div class="contacts">
+        <ul class="contacts-place">
+          <li class="contacts-place__item">
+            <button type="button" class="contacts-place__btn">FOODTRUCK</button>
+          </li>
+        </ul>
+        <div class="adress">
+          <h3>Los Angeles</h3>
+          <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+        </div>
+        <div class="work-time">
+        <p>Monday - Friday</p>
+        <p>06:00 AM - 10:00 PM</p>
+        </div>
+        <div class="work-weekand">
+          <p>Saturday - Sunday</p>
+          <p>08:00 AM - 16:00 PM</p>
+          </div>
+          <adress class="adress-contact">
+            <ul class="adress-contact__list list" >
+            <li class="adress-contact__item">
+              <a href="tel:+610383766284" class="adress-contact__link link">+61(0) 383 766 284</a>
+            </li>
+            <li class="adress-contact__item">
+              <a href="mailto:noreply@envato.com" class="adress-contact__link link">noreply@envato.com</a>
+            </li>
+            </ul>
+          </adress> 
+      </div>
+        <div class="contacts">
+      <ul class="contacts-place">
+          <li class="contacts-place__item">
+            <button type="button" class="contacts-place__btn">CAFE</button>
+          </li>
+        </ul>
+        <div class="adress">
+          <h3>New York</h3>
+          <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+        </div>
+        <div class="work-time">
+        <p>Monday - Friday</p>
+        <p>06:00 AM - 10:00 PM</p>
+        </div>
+        <div class="work-weekand">
+          <p>Saturday - Sunday</p>
+          <p>08:00 AM - 16:00 PM</p>
+          </div>
+          <adress class="adress-contact">
+            <ul class="adress-contact__list list" >
+            <li class="adress-contact__item">
+              <a href="tel:+610383766284" class="adress-contact__link link">+61(0) 383 766 284</a>
+            </li>
+            <li class="adress-contact__item">
+              <a href="mailto:noreply@envato.com" class="adress-contact__link link">noreply@envato.com</a>
+            </li>
+            </ul>
+          </adress> 
+      </div>
+      <div class="button">
+      <ul class="contacts-btn list">
+        <li class="contacts-btn__item">
+          <button type="button" class="btn--active">Our Locations</button>
+        </li>
+        <li class="contacts-btn__item">
+          <button type="button" class="btn">Franchise</button>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </section>
+    </main>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <include src="./partials/example.html"></include>
   </body>
